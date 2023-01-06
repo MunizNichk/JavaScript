@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <!--vincular o arquivo css-->
+    <link rel="stylesheet" href="estilo.css">
+    <!--vincular o site de icones-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css">
+</head>
+<body>
+    <h1>TO DO </h1>
+
+    <header>
+        <!--placeholder é para mostrar um texto pre-fixado no input-->
+        <!--input-->
+        <input id = "inputTarefa" type="text" placeholder = "Digite sua tarefa">
+        <!--botao-->
+        <button id= 'btnAdd' class="add" onclick="addTarefa()">Adicionar</button>
+    </header>
+
+    <!--area principal da lista-->
+    <main id="areaLista"> </main>
+
+    <!--rodapé-->
+    <footer>
+        &copy;DeveloperByNichk
+    </footer>
+
+    <!--pra carregar o arquivo do JS-->
+    <script src="script.js"></script>
+</body>
+</html>
